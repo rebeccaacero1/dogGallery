@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #f5f6f7;
+    font-family: sans-serif;
+}
+
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(228,202,168);
+    padding: 32px;
+    color: #000040;
+    border-bottom: 4px solid #000040;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.gallery image{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+}
