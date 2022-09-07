@@ -16,6 +16,8 @@ body{
     border-bottom: 4px solid #000040;
 
 }
+
+/*targeting flex components*/
 .gallery{
     display: flex;
     flex-direction: row;
@@ -26,8 +28,9 @@ body{
     padding: 20px;
     max-width: 1400px;
     margin: 0 auto;
+    gap: 16px;
 }
-
+/*targeting flex items*/
 .gallery img{
     width: 100%;
     max-width: 350px;
