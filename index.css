@@ -29,7 +29,7 @@ body{
     max-width: 1400px;
     margin: 0 auto;
     gap: 16px;
-    background-color: green;
+    /* background-color: green; */
 }
 /*targeting flex items*/
 .gallery img{
